@@ -50,6 +50,9 @@ A Nextjs Courses you wish you can knew sooner. I will walk through from the fund
 
 ### Frontend
 
+- Fetching API: [Better Fetch](https://better-fetch.vercel.app/docs)
+- Auth Client: [Better Auth](https://www.better-auth.com/)
+- State Management: XState
 - Components: Use @shadcn/ui + Storybook to overview components
 - Web: Use Nextjs 15 & React 19 & [Tanstack Query](https://tanstack.com/query/latest/docs/framework/react/overview)
 - Animation: Using [Motion](https://motion.dev/) & [Swup](https://swup.js.org) for smooth transition/animation
@@ -62,7 +65,7 @@ A Nextjs Courses you wish you can knew sooner. I will walk through from the fund
 - ORM: Use [Prisma](https://www.prisma.io)
 - Validation schema: [Zod](https://zod.dev/)
 - Email: [Resend](https://react.email) Build and send emails using React
-- Cache: [Bento Cache](https://bentocache.dev/docs/introduction) --> In Memory + [DragonFly(Redis)](https://www.dragonflydb.io) cache
+- Cache: [BentoCache](https://bentocache.dev/docs/introduction) --> In Memory + [DragonFly(Redis)](https://www.dragonflydb.io) cache
 - Rate Limit
 - [AxiomJs](https://axiom.co) all you need to debug, log & analyze in production
 - Secure Headers
