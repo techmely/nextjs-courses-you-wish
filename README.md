@@ -19,47 +19,50 @@ A Nextjs Courses you wish you can knew sooner. I will walk through from the fund
 
 ## Key Features
 
-📝 Content Management(Text Editors) + Blog post with AI summarize features
-📊 CRUD Table
-🖼️ Upload Media like Image/Video/Documents on S3 Storage
-🔒 Authentication + Authorization with RBAC
-SEO features: Sitemap, Rss, JsonLD, optimize performance
-📱 Responsive Design
-
-⚛️ Framework Next.js 15
-🎨 Shadcn UI & Tailwind CSS v4
+- 📝 Content Management(Text Editors) + Blog post with AI summarize features
+- 📊 CRUD Table
+- 🖼️ Upload Media like Image/Video/Documents on S3 Storage
+- 🔒 Authentication + Authorization with RBAC
+- SEO features: 
+    - Sitemap
+    - Rss Feed
+    - JsonLD
+    - Optimize performance
+- 📱 Responsive Design
 
 ## TechStack
 
 ### Engineering Setup
 
-- Cursor: Code Editor
-- v0.dev: Generate UI components
-- Perplexity: Research topic
-- Grok: Ask about technique stuff
-- Qwq 32B
+- Cursor: Code AI Editor
+- v0.dev: Generative UI components
+- Model:
+    - Claude Sonnet 3.7: Agent AI in Cursor
+    - Grok: Ask about technique stuff
+    - Perplexity: Research topic
+    - Qwq 32B
 
 ### AI Tools
 
-- Interface LLMS: [OpenRouter](http://openrouter.ai/)
+- Interface LLMs: [OpenRouter](http://openrouter.ai/)
 - Open AI keys
 - [n8n](https://n8n.io) workflows crawls and take the summarization of articles on Internets
 
 ### Frontend
 
 - Components: Use @shadcn/ui + Storybook to overview components
-- Web: Use Nextjs 15 & React 19 & Tanstack Query
+- Web: Use Nextjs 15 & React 19 & [Tanstack Query](https://tanstack.com/query/latest/docs/framework/react/overview)
 - Animation: Using [Motion](https://motion.dev/) & [Swup](https://swup.js.org) for smooth transition/animation
 
 ### Backend
 
 - Database: PostgresSQL + PG Vectorize
-- Use Stripe for payments, unified API for one-off & subscription billing methods for Stripe
+- Use [Polar](http://polar.sh) for payments, unified API for one-off & subscription billing methods
 - Queue: Handle the heavy workload on the background(client/server)
-- ORM: Use Prisma
-- Validation schema: Zod
+- ORM: Use [Prisma](https://www.prisma.io)
+- Validation schema: [Zod](https://zod.dev/)
 - Email: [Resend](https://react.email) Build and send emails using React
-- Cache: [Bento Cache](https://bentocache.dev/docs/introduction) --> In Memory + Redis cache
+- Cache: [Bento Cache](https://bentocache.dev/docs/introduction) --> In Memory + [DragonFly(Redis)](https://www.dragonflydb.io) cache
 - Rate Limit
 - [AxiomJs](https://axiom.co) all you need to debug, log & analyze in production
 - Secure Headers
