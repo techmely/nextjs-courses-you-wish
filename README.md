@@ -37,6 +37,7 @@ SEO features: Sitemap, Rss, JsonLD, optimize performance
 - v0.dev: Generate UI components
 - Perplexity: Research topic
 - Grok: Ask about technique stuff
+- Qwq 32B
 
 ### AI Tools
 
@@ -48,7 +49,7 @@ SEO features: Sitemap, Rss, JsonLD, optimize performance
 
 - Components: Use @shadcn/ui + Storybook to overview components
 - Web: Use Nextjs 15 & React 19 & Tanstack Query
-- Animation: Using Motion & Swup for smooth transition/animation
+- Animation: Using [Motion](https://motion.dev/) & [Swup](https://swup.js.org) for smooth transition/animation
 
 ### Backend
 
