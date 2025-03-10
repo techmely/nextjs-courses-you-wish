@@ -1,0 +1,11 @@
+{
+  "name": "@techmely/nextjs-courses-you-need",
+  "type": "module",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@types/bun": "^1.2.4",
+    "oxlint": "^0.15.13",
+    "typescript": "^5.8.2"
+  }
+}

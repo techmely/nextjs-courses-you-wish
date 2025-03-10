@@ -1,0 +1,61 @@
+{
+    "version": "0.2",
+    "language": "en,vi",
+    "import": [
+        "@cspell/dict-typescript",
+        "@cspell/dict-software-terms",
+        "@cspell/dict-node",
+        "@cspell/dict-en_us",
+        "@cspell/dict-en-gb",
+        "@cspell/dict-npm",
+        "@cspell/dict-html",
+        "@cspell/dict-companies",
+        "@cspell/dict-filetypes",
+        "@cspell/dict-bash",
+        "@cspell/dict-lorem-ipsum/cspell-ext.json"
+    ],
+    "allowCompoundWords": true,
+    "flagWords": [],
+    "ignorePaths": [
+        ".vscode/**",
+        "dist/**",
+        "node_modules/**",
+        "package.json",
+        "tsconfig.json",
+        "tsconfig.build.json",
+        "**/coverage/**",
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/fixtures/**",
+        "**/public/**",
+        "CHANGELOG.md",
+        "**/changelog.mdx",
+        "**/*.prisma",
+        "docker/",
+        "Makefile",
+        "logs/",
+        "coverage/"
+    ],
+    "dictionaries": [
+        "typescript",
+        "softwareTerms",
+        "node",
+        "en_us",
+        "en-gb",
+        "npm",
+        "html",
+        "companies",
+        "misc",
+        "filetypes",
+        "bash",
+        "lorem-ipsum",
+        "es-es"
+    ],
+    "words": [
+        "Bento",
+        "oxlint",
+        "shadcn",
+        "Swup",
+        "Traefik"
+    ]
+}

@@ -1,8 +1,71 @@
 {
-    "cSpell.words": [
-        "Bento",
-        "shadcn",
-        "Swup",
-        "Traefik"
-    ]
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.rulers": [100],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports.biome": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "search.exclude": {
+    "**/dist": true,
+    "dist": true,
+    "static/tradingview-lib": true,
+    "out": true,
+    "**/.nuxt": true,
+    "**/.next": true,
+    ".next": true,
+    "**/coverge": true,
+    "node_modules": true,
+    "packages/**/.next": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true,
+    "**/*.code-search": true,
+    "packages/**/node_modules": true,
+    "**/bower_components": true,
+    "ios": true,
+    ".yarn": true,
+    "android": true,
+    "fastlane": true,
+    "build": true,
+    "coverage": true,
+    ".idea": true,
+    ".dart_tool": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".packages": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "ios": true,
+    "android": true,
+    "fastlane": true,
+    ".idea": true,
+    ".dart_tool": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".packages": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "conf.view.identsBefore.Rule": 2,
+  "conf.view.identsBefore.Feature": 0,
+  "conf.view.identsBefore.Background": 2,
+  "conf.view.identsBefore.Table": 6,
+  "conf.view.identsBefore.Scenario": 2,
+  "conf.view.identsBefore.ScenarioOutline": 2,
+  "conf.view.identsBefore.And": 4,
+  "conf.view.identsBefore.But": 4,
+  "conf.view.identsBefore.Examples": 4,
+  "conf.view.identsBefore.Given": 4,
+  "conf.view.identsBefore.Tag": "relative",
+  "conf.view.identsBefore.When": 4,
+  "conf.view.identsBefore.Then": 4
+  // "[css][scss][jsonc][json][typescript][typescriptreact]": {
+  //     "editor.defaultFormatter": "oxc.oxc-vscode"
+  // }
 }

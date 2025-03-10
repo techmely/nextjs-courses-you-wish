@@ -1,0 +1,21 @@
+{
+  "icon_theme": "Catppuccin Frappé",
+  "telemetry": {
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Macchiato",
+    "dark": "Catppuccin Macchiato"
+  },
+  "buffer_font_family": "Fira Code",
+  "ui_font_family": "Fira Code",
+  "buffer_font_features": {
+    "calt": true
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  }
+}
