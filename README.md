@@ -17,18 +17,23 @@ A Nextjs Courses you wish you can knew sooner. I will walk through from the fund
 
 ### Real Product Path
 
+We will build a Huly clone app with the following features:
+
 ## Key Features
 
-- 📝 Content Management(Text Editors) + Blog post with AI summarize features
-- 📊 CRUD Table
-- 🖼️ Upload Media like Image/Video/Documents on S3 Storage
-- 🔒 Authentication + Authorization with RBAC
 - SEO features: 
     - Sitemap
     - Rss Feed
     - JsonLD
     - Optimize performance
 - 📱 Responsive Design
+- Realtime chat with AI + Team members
+- User Management
+- 📝 Content Management(Text Editors) + Blog post with AI summarize features
+- 📊 CRUD Table
+- 🖼️ Upload Media like Image/Video/Documents on S3 Storage
+- 🔒 Authentication + Authorization with ACL/RBAC
+- 📊 Dashboard Reporting
 
 ## TechStack
 
