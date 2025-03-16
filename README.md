@@ -29,7 +29,7 @@ We will build a Huly clone app with the following features:
 - 📱 Responsive Design
 - Realtime chat with AI + Team members
 - User Management
-- 📝 Content Management(Text Editors) + Blog post with AI summarize features
+- 📝 Content Management(Text Editors) + Create documents/tickets + AI summarize features
 - 📊 CRUD Table
 - 🖼️ Upload Media like Image/Video/Documents on S3 Storage
 - 🔒 Authentication + Authorization with ACL/RBAC
