@@ -1,13 +1,13 @@
 # nextjs-courses-you-wish
 
-A Nextjs Courses you wish you can knew sooner. I will walk through from the fundamentals to advance, real life features. I will cooked that by greatest ingredients: RAG, AI, Nextjs 15, RSC, PostgresSQL, Auth, React 19, Tanstack Query, TailwindCss V4.... Coming Soon - Do not rush
+A Nextjs Courses you wish you had known sooner. I will walk through from the fundamentals to advanced real-life features. I will cook that with the greatest ingredients: RAG, AI, Nextjs 15, RSC, PostgreSQL, Auth, React 19, Tanstack Query, and TailwindCss V4... Coming Soon - Do not rush
 
 ## The journey we will cooks
 
 ### Fundamental Path
 
 - The basic principles of working with Next.js and App Router.
-- The use of React Server Components (RSC) and methods of data fetching within them.
+- React Server Components (RSC) and data fetching methods within them.
 - The creation of API routes and the application of Server Actions for data modification.
 - Client-side data fetching with React Query and interaction with Server Actions and API routes.
 - Caching strategies in Next.js 15.

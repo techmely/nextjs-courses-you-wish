@@ -1,6 +1,11 @@
 {
   "editor.defaultFormatter": "biomejs.biome",
-  "editor.rulers": [100],
+  "[css][scss][jsonc][json][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.rulers": [
+    100
+  ],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
@@ -51,21 +56,5 @@
     ".packages": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "conf.view.identsBefore.Rule": 2,
-  "conf.view.identsBefore.Feature": 0,
-  "conf.view.identsBefore.Background": 2,
-  "conf.view.identsBefore.Table": 6,
-  "conf.view.identsBefore.Scenario": 2,
-  "conf.view.identsBefore.ScenarioOutline": 2,
-  "conf.view.identsBefore.And": 4,
-  "conf.view.identsBefore.But": 4,
-  "conf.view.identsBefore.Examples": 4,
-  "conf.view.identsBefore.Given": 4,
-  "conf.view.identsBefore.Tag": "relative",
-  "conf.view.identsBefore.When": 4,
-  "conf.view.identsBefore.Then": 4
-  // "[css][scss][jsonc][json][typescript][typescriptreact]": {
-  //     "editor.defaultFormatter": "oxc.oxc-vscode"
-  // }
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
