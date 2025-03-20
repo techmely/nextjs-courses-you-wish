@@ -51,7 +51,8 @@ We will build a Huly clone app with the following features:
 
 - Interface LLMs: [OpenRouter](http://openrouter.ai/)
 - Open AI keys
-- [n8n](https://n8n.io) workflows crawls and take the summarization of articles on Internets
+- [n8n](https://n8n.io) workflows crawls and take the summarization of articles on Internet
+- [Cursor AI Rules](https://github.com/PatrickJS/awesome-cursorrules) help AI improve Context Awareness, Project-Specific Knowledge, and the Consistency.
 
 ### Frontend
 
